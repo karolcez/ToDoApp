@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "learing",
+        "status": "TO_DO"
+    },
+    {
+        "id": 2,
+        "text": "cleaning",
+        "status": "TO_DO"
+    },
+    {
+        "id": 3,
+        "text": "shopping",
+        "status": "TO_DO"
+    },
+    {
+        "id": 4,
+        "text": "practising",
+        "status": "TO_DO"
+    }
+]
