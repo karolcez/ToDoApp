@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background: #000000;
+  height: 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #000000;
+  color: white;
+}
+
+.button-orange {
+  background-color: #ff6600;
+}
+
+.large, .button-large {
+  width: 200px;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.562);
+  padding: 1em;
+  text-align: center;
+}
+
+.item-completed {
+  background-color: green;
+  color: white;
+}
+
+.item-not-completed {
+  background-color: red;
+  color: white;
+}
+
+.item-doing {
+  background-color: wheat;
+}
+
+ul {
+  max-width: 300px;
+  margin: 0 auto 50px auto;
+}
+
+.a .b {
+  color: red;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+body {
+  background: #222;
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+@mixin button-color($color){
+  background-color: $color;
+}

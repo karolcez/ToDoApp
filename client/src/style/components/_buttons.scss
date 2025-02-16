@@ -1,0 +1,17 @@
+.button {
+    @include flex-center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: $primary-color;
+    color: white;
+  }
+  
+  .button-orange {
+    @include button-color(#ff6600);
+  }
+  .large{
+    width: 200px;
+  }
+  .button-large{
+    @extend .large
+  }

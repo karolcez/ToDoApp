@@ -1,0 +1,35 @@
+
+  
+  div{
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 1em;
+    text-align: center;
+  }
+  .item-completed{
+    background-color: green;
+    color: white;
+  }
+  .item-not-completed{
+    background-color: red;
+    color: white;
+  }
+  .item-doing{
+    background-color: wheat;
+  }
+  ul{
+    max-width: 300px;
+    margin: 0 auto 50px auto;
+  }
+.a{
+  .b{
+    color: red
+  }
+    
+}
+@for $i from 1 through 6{
+  h#{7-$i}{
+    font-size: #{double($i * 10)}px;
+  }
+}
+
+  
