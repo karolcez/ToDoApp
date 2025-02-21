@@ -26,10 +26,13 @@
   }
     
 }
-@for $i from 1 through 6{
-  h#{7-$i}{
-    font-size: #{double($i * 10)}px;
-  }
+.selected{
+  background-color: lightblue;
 }
+// @for $i from 1 through 6{
+//   h#{7-$i}{
+//     font-size: #{double($i * 10)}px;
+//   }
+// }
 
   

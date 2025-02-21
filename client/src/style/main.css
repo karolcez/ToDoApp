@@ -66,28 +66,8 @@ ul {
   color: red;
 }
 
-h6 {
-  font-size: 20px;
-}
-
-h5 {
-  font-size: 40px;
-}
-
-h4 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 80px;
-}
-
-h2 {
-  font-size: 100px;
-}
-
-h1 {
-  font-size: 120px;
+.selected {
+  background-color: lightblue;
 }
 
 body {

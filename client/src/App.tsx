@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/main.css'
 import ToDoApp from './ToDoApp.tsx';
+import Notes from './Notes.tsx';
 
 // (1)  algorithmic task
 
@@ -46,7 +47,7 @@ const A = [2, 3, 9, 2, 5, 1, 3, 7, 10];
 const B = [2, 1, 3, 4, 3, 10, 6, 6, 1, 7, 10, 10, 10];
 
 const C = filterPrimeOccurrences(A, B);
-console.log(C); // Expected output: [2, 9, 2, 5, 7, 10]
+// console.log(C); // Expected output: [2, 9, 2, 5, 7, 10]
 
 // Notes: 
 
@@ -59,6 +60,7 @@ function App() {
   return (
     <div className="App">
       <ToDoApp></ToDoApp>
+      <Notes></Notes>
     </div>
   );
 }

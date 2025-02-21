@@ -1,0 +1,19 @@
+{
+    "notes": [
+        {
+            "id" : 1,
+            "title": "first title",
+            "text": "super text 1"
+        },
+        {
+            "id" : 2,
+            "title": "second title",
+            "text": "super text 2"
+        },
+        {
+            "id" : 3,
+            "title": "third title",
+            "text": "super text 3"
+        }
+    ]
+}
