@@ -2,6 +2,7 @@ import React from 'react';
 import './style/main.css'
 import ToDoApp from './ToDoApp.tsx';
 import Notes from './Notes.tsx';
+import ToDoList from './ToDoList.tsx';
 
 // (1)  algorithmic task
 
@@ -59,8 +60,9 @@ const C = filterPrimeOccurrences(A, B);
 function App() {
   return (
     <div className="App">
-      <ToDoApp></ToDoApp>
-      <Notes></Notes>
+      <ToDoList></ToDoList>
+      {/* <ToDoApp></ToDoApp>
+      <Notes></Notes> */}
     </div>
   );
 }

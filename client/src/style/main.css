@@ -70,6 +70,10 @@ ul {
   background-color: lightblue;
 }
 
+.selectedNote {
+  border: 2px solid black;
+}
+
 body {
   background: #222;
   color: #000000;

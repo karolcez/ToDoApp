@@ -117,7 +117,6 @@ interface ToDoAppViewProps {
     onDelete: (id: number) => void;
     onDoing: (id: number) => void;
     onDone: (id: number) => void;
-
 }
 
 const ToDoAppView: React.FC<ToDoAppViewProps> = ({ list, onSubmit, formInput, onDelete, onDoing, onDone }) => {
@@ -139,8 +138,6 @@ const ToDoAppView: React.FC<ToDoAppViewProps> = ({ list, onSubmit, formInput, on
         </>
     );
 }
-
-
 
 export default ToDoApp
 

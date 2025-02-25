@@ -29,6 +29,9 @@
 .selected{
   background-color: lightblue;
 }
+.selectedNote{
+  border: 2px solid black;
+}
 // @for $i from 1 through 6{
 //   h#{7-$i}{
 //     font-size: #{double($i * 10)}px;
